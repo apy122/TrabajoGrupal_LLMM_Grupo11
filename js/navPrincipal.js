@@ -1,6 +1,6 @@
 const nav = document.createElement("nav");
 
-links=[
+let links=[
     {nombre:"Home", url:"index.html"},
     {nombre:"Noticias", url:"html/noticias.html"},
     {nombre:"Quienes somos", url:"html/about.html"},
