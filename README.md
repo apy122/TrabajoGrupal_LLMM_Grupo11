@@ -9,22 +9,22 @@
 6. [Equipo de desarrollo](#equipo-de-desarrollo).
 
 ---
-## Caracteristicas
+## 1. Caracteristicas
 
 ---
-## Tecnologias utilizadas
+## 2. Tecnologias utilizadas
 
 ---
-## Estructura del sitio
+## 3. Estructura del sitio
 
 ---
-## Instalacion y uso
+## 4. Instalacion y uso
 
 ---
-## Capturas de pantalla
+## 5. Capturas de pantalla
 
 ---
-## Equipo de desarrollo
+## 6. Equipo de desarrollo
 
 - **Álvaro Jesús Pérez Yuguero**  
   GitHub: [@apy122](https://github.com/apy122)
