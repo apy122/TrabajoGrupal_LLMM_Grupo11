@@ -4,7 +4,7 @@
 1. [Caracteristicas](#caracteristicas)
 2. [Tecnologias utilizadas](#tecnologias-utilizadas)
 3. [Estructura del sitio](#estructura-del-sitio)
-4. [Instalación y uso](#instalación-y-uso)
+4. [Instalación y uso](#instalacion-y-uso)
 5. [Capturas de pantalla](#capturas-de-pantalla)
 6. [Equipo de desarrollo](#equipo-de-desarrollo)
 7. [Licencia](#licencia)
