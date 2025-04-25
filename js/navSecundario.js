@@ -1,6 +1,6 @@
 const nav = document.createElement("nav");
 
-links=[
+let links=[
     {nombre:"Home", url:"../index.html"},
     {nombre:"Noticias", url:"../html/noticias.html"},
     {nombre:"Quienes somos", url:"../html/about.html"},
@@ -11,7 +11,7 @@ links=[
 ]
 
 //crea el nav
-function crearNav() {
+export function crearNav() {
     const ul=document.createElement("ul");
     links.forEach(element => {
      const li=document.createElement("li");
@@ -22,7 +22,10 @@ function crearNav() {
         ul.appendChild(li);
     });
     nav.appendChild(ul);
-    document.body.insertBefore(nav, document.body.querySelector("main"));
- };
-
- addEventListener("DOMContentLoaded", crearNav);
+    const header=document.querySelector("header");
+    if(header){
+        header.appendChild(nav);
+ }else{
+    throw new Error("No se encontró el elemento header en el DOM.");
+ }
+}

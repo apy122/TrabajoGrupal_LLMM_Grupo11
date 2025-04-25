@@ -6,7 +6,7 @@ const footer = document.createElement("footer");
 //crea el header
 function crearHeader() {
     const titulo = document.createElement("h1");
-    titulo.textContent = " "; // Puedes personalizar por página también
+    titulo.textContent = "Mi Pagina Web";
     header.appendChild(titulo);
     return header;
 }
@@ -18,14 +18,11 @@ function crearMain() {
 
 //crea el footer
 function crearFooter() {
-    const parrafo= document.createElement("p");
-    parrafo.textContent="Trabajo LLMM 2025";
-    footer.appendChild(parrafo);
     return footer;
 };
 
 //une todo al body
-function armarPagina() {
+export function armarPagina() {
     crearHeader();
     crearMain();
     crearFooter();
@@ -33,8 +30,3 @@ function armarPagina() {
     document.body.appendChild(main);
     document.body.appendChild(footer);
 };
-
-//ejecuta funciones y Doom
-document.addEventListener("DOMContentLoaded", function(){
-    armarPagina();
-});
