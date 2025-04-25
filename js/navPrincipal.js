@@ -24,5 +24,3 @@ export function crearNav() {
     nav.appendChild(ul);
     document.body.insertBefore(nav, document.body.querySelector("main"));
  };
-
- addEventListener("DOMContentLoaded", crearNav);
