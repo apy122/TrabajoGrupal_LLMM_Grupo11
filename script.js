@@ -19,14 +19,17 @@ function crearHeader() {
     const aside = document.createElement("aside");
     
     //inserta elementos al header la funcion nav y elementos
-    header.appendChild(crearNav());
     header.appendChild();
 };
 
 //crea el nav
 function crearNav() {
-   
-    return nav;
+    links.forEach(link => {
+        const a = document.createElement("a");
+        a.href = link.url;
+        a.textContent = link.nombre;
+        nav.appendChild(a);
+    });
 };
 
 //crea el main
@@ -34,6 +37,7 @@ function crearMain() {
     const section = document.createElement("section");
     const aside = document.createElement("aside");
     const article = document.createElement("article");
+    const footer2 = document.createElement("footer");
 };
 
 //crea el footer
@@ -52,6 +56,7 @@ function armarPagina() {
 //ejecuta funciones y Doom
 document.addEventListener("DOMContentLoaded", function(){
     crearHeader();
+    crearNav()
     crearMain();
     crearFooter();
     armarPagina();
