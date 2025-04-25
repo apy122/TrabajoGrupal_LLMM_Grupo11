@@ -1,5 +1,5 @@
-import { armarPagina } from "/js/base.js";
-import { crearNav } from "/js/navSecundario.js";
+import { armarPagina } from "./js/base.js";
+import { crearNav } from "./js/navPrincipal.js";
 
 
 function iniciarPagina(){
