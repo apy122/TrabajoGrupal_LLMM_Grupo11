@@ -1,10 +1,13 @@
 //Secciones principales de la pagina
-const header = document.createElement("header");
-const main = document.createElement("main");
-const footer = document.createElement("footer");
+export function elementos() {
+    const header = document.createElement("header");
+    const main = document.createElement("main");
+    const footer = document.createElement("footer");
+    return { header, main, footer };
+}
 
 //crea el header
-function crearHeader() {
+export function crearHeader(header) {
     const titulo = document.createElement("h1");
     titulo.textContent = "Mi Pagina Web";
     header.appendChild(titulo);
@@ -12,20 +15,21 @@ function crearHeader() {
 }
 
 //crea el main
-function crearMain() {
+export function crearMain(main) {
     return main;
 };
 
 //crea el footer
-function crearFooter() {
+export function crearFooter(footer) {
     return footer;
 };
 
 //une todo al body
 export function armarPagina() {
-    crearHeader();
-    crearMain();
-    crearFooter();
+    const { header, main, footer } = elementos();
+    crearHeader(header);
+    crearMain(main);
+    crearFooter(footer);
     document.body.appendChild(header);
     document.body.appendChild(main);
     document.body.appendChild(footer);

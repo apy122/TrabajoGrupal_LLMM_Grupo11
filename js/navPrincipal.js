@@ -1,17 +1,18 @@
-const nav = document.createElement("nav");
-
-let links=[
-    {nombre:"Home", url:"index.html"},
-    {nombre:"Noticias", url:"html/noticias.html"},
-    {nombre:"Quienes somos", url:"html/about.html"},
-    {nombre:"publicaciones", url:"html/publicaciones.html"},
-    {nombre:"Areas de Actuacion", url:"html/areasActuacion.html"},
-    {nombre:"Localizacion", url:"html/localizacion.html"},
-    {nombre:"Contacto", url:"html/contacto.html"},
-]
-
+function crearNavPrincipal() {
+    const nav = document.createElement("nav");
+    const links=[
+        {nombre:"Home", url:"index.html"},
+        {nombre:"Noticias", url:"html/noticias.html"},
+        {nombre:"Quienes somos", url:"html/about.html"},
+        {nombre:"publicaciones", url:"html/publicaciones.html"},
+        {nombre:"Areas de Actuacion", url:"html/areasActuacion.html"},
+        {nombre:"Localizacion", url:"html/localizacion.html"},
+        {nombre:"Contacto", url:"html/contacto.html"},
+    ]
+    return {nav, links};
+}
 //crea el nav
-export function crearNav() {
+export function crearNav(nav, links) {
     const ul=document.createElement("ul");
     links.forEach(element => {
      const li=document.createElement("li");
