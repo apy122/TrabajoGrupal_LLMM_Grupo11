@@ -6,7 +6,7 @@ links=[
     {nombre:"Quienes somos", url:"html/about.html"},
     {nombre:"publicaciones", url:"html/publicaciones.html"},
     {nombre:"Areas de Actuacion", url:"html/areasActuacion.html"},
-    {nombre:"Localizacion", url:"../html/localizacion.html"},
+    {nombre:"Localizacion", url:"html/localizacion.html"},
     {nombre:"Contacto", url:"html/contacto.html"},
 ]
 
