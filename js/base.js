@@ -8,9 +8,6 @@ export function elementos() {
 
 //crea el header
 export function crearHeader(header) {
-    const titulo = document.createElement("h1");
-    titulo.textContent = "Mi Pagina Web";
-    header.appendChild(titulo);
     return header;
 }
 

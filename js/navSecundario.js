@@ -1,6 +1,8 @@
-function crearElementosBase() {
-    const nav = document.createElement("nav");
-    const links=[
+import { armarPagina } from "./base.js";
+
+export function crearElementosSecundario() {
+    const nav2 = document.createElement("nav");
+    const links2=[
         {nombre:"Home", url:"../index.html"},
         {nombre:"Noticias", url:"../html/noticias.html"},
         {nombre:"Quienes somos", url:"../html/about.html"},
@@ -9,13 +11,13 @@ function crearElementosBase() {
         {nombre:"Localizacion", url:"../html/localizacion.html"},
         {nombre:"Contacto", url:"../html/contacto.html"},
     ]
-    return {nav, links};
+    return { nav2, links2};
 }
 
 //crea el nav
-export function crearNav(nav, links) {
+export function crearNavSecundario(nav2, links2) {
     const ul=document.createElement("ul");
-    links.forEach(element => {
+    links2.forEach(element => {
      const li=document.createElement("li");
      const a=document.createElement("a");
      a.href=element.url;
@@ -23,11 +25,18 @@ export function crearNav(nav, links) {
         li.appendChild(a);
         ul.appendChild(li);
     });
-    nav.appendChild(ul);
+    nav2.appendChild(ul);
     const header=document.querySelector("header");
     if(header){
-        header.appendChild(nav);
+        header.appendChild(nav2);
  }else{
     throw new Error("No se encontró el elemento header en el DOM.");
  }
+}
+
+//Arma la pagina exporta los elementos fijos y crea el nav
+export function iniciarPaginaSecundaria(){
+    armarPagina();
+    const {nav2, links2}= crearElementosSecundario();
+    crearNavSecundario(nav2, links2);
 }

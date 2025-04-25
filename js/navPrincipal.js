@@ -1,6 +1,8 @@
-function crearNavPrincipal() {
-    const nav = document.createElement("nav");
-    const links=[
+import { armarPagina } from "./base.js";
+
+export function crearElementosPrincipal() {
+    const nav1 = document.createElement("nav");
+    const links1=[
         {nombre:"Home", url:"index.html"},
         {nombre:"Noticias", url:"html/noticias.html"},
         {nombre:"Quienes somos", url:"html/about.html"},
@@ -9,12 +11,13 @@ function crearNavPrincipal() {
         {nombre:"Localizacion", url:"html/localizacion.html"},
         {nombre:"Contacto", url:"html/contacto.html"},
     ]
-    return {nav, links};
+    return {nav1, links1};
 }
+
 //crea el nav
-export function crearNav(nav, links) {
+export function crearNavPrincipal(nav1, links1) {
     const ul=document.createElement("ul");
-    links.forEach(element => {
+    links1.forEach(element => {
      const li=document.createElement("li");
      const a=document.createElement("a");
      a.href=element.url;
@@ -22,6 +25,18 @@ export function crearNav(nav, links) {
         li.appendChild(a);
         ul.appendChild(li);
     });
-    nav.appendChild(ul);
-    document.body.insertBefore(nav, document.body.querySelector("main"));
- };
+    nav1.appendChild(ul);
+    const headerPrincipal=document.querySelector("header");
+    if(headerPrincipal){
+        headerPrincipal.appendChild(nav1);
+    }else{
+        throw new Error("No se encontró el elemento header en el DOM.");
+    }
+}
+
+ //Arma la pagina exporta los elementos fijos y crea el nav
+ export function iniciarPaginaPrincipal(){
+     armarPagina();
+     const {nav1, links1} = crearElementosPrincipal();
+     crearNavPrincipal(nav1, links1);
+ }
