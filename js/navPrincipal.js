@@ -11,7 +11,7 @@ links=[
 ]
 
 //crea el nav
-function crearNav() {
+export function crearNav() {
     const ul=document.createElement("ul");
     links.forEach(element => {
      const li=document.createElement("li");
