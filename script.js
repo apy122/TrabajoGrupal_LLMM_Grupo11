@@ -2,7 +2,7 @@ import { iniciarPaginaPrincipal } from "./js/navPrincipal.js";
 
 //crea el main
 export function crearMain() {
-    const h1 = document.createElement("h1");
+    let h1 = document.createElement("h1");
     h1.textContent = "El main"
     h1.style.color = "white";
     let main= document.querySelector("main");

@@ -2,7 +2,7 @@ import { iniciarPaginaSecundaria} from "./navSecundario.js";
 
 //crea el main
 export function crearMain() {
-    const h1 = document.createElement("h1");
+    let h1 = document.createElement("h1");
     h1.textContent = "Noticias"
     h1.style.color = "white";
     let main= document.querySelector("main");
