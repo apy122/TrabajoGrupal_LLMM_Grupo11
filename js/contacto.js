@@ -23,9 +23,13 @@ function modificarMain() {
     const articulo = document.querySelector("main section article");
     const aside = document.querySelector("main section aside");
     const footerInterno = document.querySelector("main section footer");
+    const form= document.createElement("form");
 
-  
+
+    return{headerInterno, articulo, aside, footerInterno};
+
 }
+
 
 // función para cambiar footer
 function modificarFooter() {
