@@ -111,6 +111,12 @@ function modificarMain() {
 
     // Insertar formulario dentro del artículo
     articulo.appendChild(form);
+    const aside = document.querySelector("main section aside");
+    const footerInterno = document.querySelector("main section footer");
+    const form= document.createElement("form");
+
+
+    return{headerInterno, articulo, aside, footerInterno};
 }
 
 
