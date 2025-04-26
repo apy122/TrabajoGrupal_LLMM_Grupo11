@@ -1,5 +1,3 @@
-import { armarPagina } from "./base.js";
-
 export function crearElementosSecundario() {
     const nav2 = document.createElement("nav");
     const links2=[
@@ -10,7 +8,7 @@ export function crearElementosSecundario() {
         {nombre:"Areas de Actuacion", url:"../html/areasActuacion.html"},
         {nombre:"Localizacion", url:"../html/localizacion.html"},
         {nombre:"Contacto", url:"../html/contacto.html"},
-    ]
+    ];
     return { nav2, links2};
 }
 
@@ -25,7 +23,9 @@ export function crearNavSecundario(nav2, links2) {
         li.appendChild(a);
         ul.appendChild(li);
     });
+
     nav2.appendChild(ul);
+    
     const header=document.querySelector("header");
     if(header){
         header.appendChild(nav2);
@@ -35,8 +35,7 @@ export function crearNavSecundario(nav2, links2) {
 }
 
 //Arma la pagina exporta los elementos fijos y crea el nav
-export function iniciarPaginaSecundaria(){
-    armarPagina();
+export function iniciarNavSecundario(){
     const {nav2, links2}= crearElementosSecundario();
     crearNavSecundario(nav2, links2);
 }

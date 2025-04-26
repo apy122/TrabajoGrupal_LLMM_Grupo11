@@ -1,5 +1,3 @@
-import { armarPagina } from "./base.js";
-
 export function crearElementosPrincipal() {
     const nav1 = document.createElement("nav");
     const links1=[
@@ -25,6 +23,7 @@ export function crearNavPrincipal(nav1, links1) {
         li.appendChild(a);
         ul.appendChild(li);
     });
+
     nav1.appendChild(ul);
     const headerPrincipal=document.querySelector("header");
     if(headerPrincipal){
@@ -35,8 +34,7 @@ export function crearNavPrincipal(nav1, links1) {
 }
 
  //Arma la pagina exporta los elementos fijos y crea el nav
- export function iniciarPaginaPrincipal(){
-     armarPagina();
+ export function iniciarNavPrincipal(){
      const {nav1, links1} = crearElementosPrincipal();
      crearNavPrincipal(nav1, links1);
  }
