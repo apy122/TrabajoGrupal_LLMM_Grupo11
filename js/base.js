@@ -11,11 +11,6 @@ export function crearHeader(header) {
     return header;
 }
 
-//crea el main
-export function crearMain(main) {
-    return main;
-};
-
 //crea el footer
 export function crearFooter(footer) {
     return footer;
@@ -25,9 +20,7 @@ export function crearFooter(footer) {
 export function armarPagina() {
     const { header, main, footer } = elementos();
     crearHeader(header);
-    crearMain(main);
     crearFooter(footer);
     document.body.appendChild(header);
-    document.body.appendChild(main);
     document.body.appendChild(footer);
 };

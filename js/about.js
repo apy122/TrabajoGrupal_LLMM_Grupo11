@@ -1,3 +1,22 @@
 import { iniciarPaginaSecundaria} from "./navSecundario.js";
 
-document.addEventListener("DOMContentLoaded", iniciarPaginaSecundaria);
+//crea el main
+export function crearMain() {
+    const h1 = document.createElement("h1");
+    h1.textContent = "Acerca de"
+    h1.style.color = "white";
+    let main= document.querySelector("main");
+    if (!main) {
+        console.error("El elemento main ya existe en el DOM.");
+        main = document.createElement("main");
+        document.body.appendChild(main);
+    }
+    main.appendChild(h1);
+};
+
+//Cargar todo
+document.addEventListener("DOMContentLoaded", () => {
+    iniciarPaginaSecundaria();
+    crearMain();
+   
+});

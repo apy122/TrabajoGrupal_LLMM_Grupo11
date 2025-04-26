@@ -1,3 +1,20 @@
 import { iniciarPaginaPrincipal } from "./js/navPrincipal.js";
 
-document.addEventListener("DOMContentLoaded", iniciarPaginaPrincipal);
+//crea el main
+export function crearMain() {
+    const h1 = document.createElement("h1");
+    h1.textContent = "El main"
+    h1.style.color = "white";
+    let main= document.querySelector("main");
+    if (!main) {
+        console.error("El elemento main ya existe en el DOM.");
+        main = document.createElement("main");
+        document.body.appendChild(main);
+    }
+    main.appendChild(h1);
+};
+
+document.addEventListener("DOMContentLoaded", function(){
+    iniciarPaginaPrincipal();
+    crearMain();
+});
