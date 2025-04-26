@@ -14,7 +14,7 @@ export function crearMain() {
     main.appendChild(h1);
 };
 
-//Cargar todo
+//Cargar todo 
 document.addEventListener("DOMContentLoaded", () => {
     iniciarPaginaSecundaria();
     crearMain();
