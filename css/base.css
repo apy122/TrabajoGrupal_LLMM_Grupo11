@@ -1,4 +1,27 @@
-@import url("base.css");
 body{
     background-color: grey;
+
+}
+nav{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #575757;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 10px;
 }
