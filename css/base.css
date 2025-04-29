@@ -42,10 +42,12 @@ header > * {
 
 #bitecade{
     font-family: "bitecade";
+    color: blue;
 
 }
 
 .logo{
     width: 10%;
     height: 10%;
+
 }
