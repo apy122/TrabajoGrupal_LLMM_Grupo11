@@ -2,11 +2,11 @@ import { armarPagina } from "./base.js";
 import { iniciarNavSecundario } from "./navSecundario.js"; // Importa correctamente
 
 document.addEventListener("DOMContentLoaded", () => {
-    armarPagina();          // estructura general
-    iniciarNavSecundario(); // ahora sí crearás el nav
-    modificarHeader();      // modular: cambiar header
-    modificarMain();        // modular: cambiar main
-    modificarFooter();      // modular: cambiar footer
+    armarPagina();          
+    iniciarNavSecundario(); 
+    modificarHeader();      
+    modificarMain();        
+    modificarFooter();  
 });
 
 // función para cambiar header
