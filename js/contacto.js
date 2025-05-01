@@ -38,8 +38,7 @@ function modificarMain() {
             campos: [
                 { type: "text", name: "nombre", label: "Nombre completo: ", required: true },
                 { type: "email", name: "email", label: "Correo electrónico: ", required: true },
-                { type: "tel", name: "telefono", label: "Teléfono: ", required: false },
-                { type: "text", name: "empresa", label: "Empresa: ", required: true }
+                { type: "tel", name: "telefono", label: "Teléfono: ", required: false }
             ]
         },
         {

@@ -25,10 +25,10 @@ export function crearNavPrincipal(nav1, links1) {
     });
 
     nav1.appendChild(ul);
-    const headerPrincipal=document.querySelector("header");
-    if(headerPrincipal){
-        headerPrincipal.appendChild(nav1);
-    }else{
+    const headerPrincipal = document.querySelector("header");
+    if (headerPrincipal) {
+        headerPrincipal.insertAdjacentElement("afterend", nav1);
+    } else {
         throw new Error("No se encontró el elemento header en el DOM.");
     }
 }
