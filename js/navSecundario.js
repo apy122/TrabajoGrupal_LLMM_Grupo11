@@ -26,12 +26,12 @@ export function crearNavSecundario(nav2, links2) {
 
     nav2.appendChild(ul);
     
-    const header=document.querySelector("header");
-    if(header){
-        header.appendChild(nav2);
- }else{
-    throw new Error("No se encontró el elemento header en el DOM.");
- }
+    const headerSecundario=document.querySelector("header");
+    if (headerSecundario) {
+        headerSecundario.insertAdjacentElement("afterend", nav2);
+    } else {
+        throw new Error("No se encontró el elemento header en el DOM.");
+    }
 }
 
 //Arma la pagina exporta los elementos fijos y crea el nav
