@@ -14,6 +14,14 @@ export function crearElementosPrincipal() {
 
 //crea el nav
 export function crearNavPrincipal(nav1, links1) {
+    //crear boton menu
+    const menu=document.createElement("button");
+    menu.id="menu";
+    menu.textContent="Menu";
+    menu.style.visibility="hidden";
+    nav1.appendChild(menu);
+
+    //crear menu
     const ul=document.createElement("ul");
     links1.forEach(element => {
      const li=document.createElement("li");

@@ -1,5 +1,5 @@
 export function crearElementosSecundario() {
-    const nav2 = document.createElement("nav");
+    const nav2 = document.createElement("nav");        
     const links2=[
         {nombre:"Home", url:"../index.html"},
         {nombre:"Noticias", url:"../html/noticias.html"},
@@ -10,10 +10,17 @@ export function crearElementosSecundario() {
         {nombre:"Contacto", url:"../html/contacto.html"},
     ];
     return { nav2, links2};
-}
+}  
 
 //crea el nav
 export function crearNavSecundario(nav2, links2) {
+    //crear boton menu
+    const menu=document.createElement("button");
+    menu.id="menu";
+    menu.textContent="Menu";
+    menu.style.visibility="hidden";
+    nav2.appendChild(menu);
+    //crear menus
     const ul=document.createElement("ul");
     links2.forEach(element => {
      const li=document.createElement("li");
@@ -32,6 +39,8 @@ export function crearNavSecundario(nav2, links2) {
     } else {
         throw new Error("No se encontró el elemento header en el DOM.");
     }
+
+
 }
 
 //Arma la pagina exporta los elementos fijos y crea el nav
