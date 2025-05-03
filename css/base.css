@@ -126,6 +126,10 @@ aside{
 }
 
 @media (max-width: 768px) {
+    body{
+        width: 80%;
+        height: 80%;
+    }
     button{
         margin: 0 auto;
     }

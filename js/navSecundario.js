@@ -18,9 +18,7 @@ export function crearNavSecundario(nav2, links2) {
     const menu=document.createElement("button");
     menu.className="menu";
     menu.textContent="Menu";
-    menu.addEventListener("click", function() {
-        
-    });
+    menu.addEventListener("click", mostrarMenu);
     nav2.appendChild(menu);
     
     //crear menus
@@ -50,4 +48,14 @@ export function crearNavSecundario(nav2, links2) {
 export function iniciarNavSecundario(){
     const {nav2, links2}= crearElementosSecundario();
     crearNavSecundario(nav2, links2);
+}
+
+function mostrarMenu() {
+    const menu = document.querySelector(".menu");
+    const items = document.querySelector(".items");
+    if (items.style.display === "block") {
+        items.style.display = "none";
+    } else {
+        items.style.display = "block";
+    }
 }

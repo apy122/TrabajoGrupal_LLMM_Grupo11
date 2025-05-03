@@ -18,9 +18,8 @@ export function crearNavPrincipal(nav1, links1) {
     const menu=document.createElement("button");
     menu.className="menu";
     menu.textContent="Menu";
-    menu.addEventListener("click", function() {
-        
-    });
+    menu.addEventListener("click", mostrarMenu);
+    nav2.appendChild(menu);
 
     //agregar el boton al nav
     nav1.appendChild(menu);
@@ -51,3 +50,14 @@ export function crearNavPrincipal(nav1, links1) {
      const {nav1, links1} = crearElementosPrincipal();
      crearNavPrincipal(nav1, links1);
  }
+
+ 
+function mostrarMenu() {
+    const menu = document.querySelector(".menu");
+    const items = document.querySelector(".items");
+    if (items.style.display === "block") {
+        items.style.display = "none";
+    } else {
+        items.style.display = "block";
+    }
+}
