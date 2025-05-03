@@ -46,6 +46,37 @@ export function crearMain(main) {
     return {seccion, headerInterno, articulo, footerInterno, aside};
 };
 
+// Crea el aside con promociones
+function crearAside() {
+    const aside = document.createElement("aside");
+    aside.id = "aside-ofertas";
+
+    const titulo = document.createElement("h2");
+    titulo.textContent = "¡Oportunidades de oro!";
+    aside.appendChild(titulo);
+
+    const parrafo = document.createElement("p");
+    parrafo.textContent = "Descubre joyas clásicas al mejor precio. Cada semana seleccionamos títulos únicos para verdaderos gamers.";
+    aside.appendChild(parrafo);
+
+    const lista = document.createElement("ul");
+    const juegos = ["The Legend of Zelda (NES)", "Final Fantasy VII (PS1)", "Metal Gear Solid 2 (PS2)"];
+    juegos.forEach(juego => {
+        const li = document.createElement("li");
+        li.textContent = juego;
+        lista.appendChild(li);
+    });
+    aside.appendChild(lista);
+
+    const boton = document.createElement("a");
+    boton.href = "#";
+    boton.textContent = "Ver todos los juegos";
+    boton.classList.add("boton-aside");
+    aside.appendChild(boton);
+    seccion.appendChild(aside);
+    return aside;
+}
+
 //crea el footer
 export function crearFooter(footer) {
     const p= document.createElement("p");

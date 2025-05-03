@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     iniciarNavSecundario();
     modificarHeader(); 
     modificarMain();
-    modificarFooter();
 });
 
 // función para cambiar header
@@ -29,12 +28,12 @@ function modificarMain() {
     // Crear subheader (h2)
     const h2 = document.createElement("h2");
     h2.textContent = "Formulario de Inscripción";
+    h2.id = "subtitulo";
     headerInterno.appendChild(h2);
 
     // Definición de campos agrupados por fieldsets
     const fieldsets = [
         {
-            legend: "Datos personales",
             campos: [
                 { type: "text", name: "nombre", label: "Nombre completo: ", required: true },
                 { type: "email", name: "email", label: "Correo electrónico: ", required: true },
@@ -42,18 +41,11 @@ function modificarMain() {
             ]
         },
         {
-            legend: "Mensaje",
             campos: [
                 { type: "text", name: "asunto", label: "Asunto: ", required: true },
                 { type: "text", name: "mensaje", label: "Mensaje :", required: true }
             ]
         },
-        {
-            legend: "Permisos",
-            campos: [
-                { type: "checkbox", name: "privacidad", label: "Acepto la política de privacidad: ", required: true }
-            ]
-        }
     ];
 
     // Crear el formulario
@@ -102,6 +94,17 @@ function modificarMain() {
         form.appendChild(fieldset);
     });
 
+    // Crear el campo de aceptación de la política de privacidad
+    const label= document.createElement("label");
+    label.textContent = "Acepto la política de privacidad";
+    label.setAttribute("for", "politica-privacidad");
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.required = true;
+    input.name = "politica-privacidad";
+    form.appendChild(label);
+    form.appendChild(input);
+
     // Botón de envío
     const boton = document.createElement("button");
     boton.type = "submit";
@@ -110,13 +113,8 @@ function modificarMain() {
 
     // Insertar formulario dentro del artículo
     articulo.appendChild(form);
-}
 
-
-// función para cambiar footer
-function modificarFooter() {
-    const p = document.querySelector("footer p");
-    if (p) {
-        p.textContent = "Contacto - Todos los derechos reservados © 2025";
-    }
+    //crear aside
+    const aside = document.querySelector("main section aside");
+    
 }
