@@ -16,12 +16,16 @@ export function crearElementosSecundario() {
 export function crearNavSecundario(nav2, links2) {
     //crear boton menu
     const menu=document.createElement("button");
-    menu.id="menu";
+    menu.className="menu";
     menu.textContent="Menu";
-    menu.style.visibility="hidden";
+    menu.addEventListener("click", function() {
+        
+    });
     nav2.appendChild(menu);
+    
     //crear menus
     const ul=document.createElement("ul");
+    ul.className="items";
     links2.forEach(element => {
      const li=document.createElement("li");
      const a=document.createElement("a");
@@ -39,7 +43,6 @@ export function crearNavSecundario(nav2, links2) {
     } else {
         throw new Error("No se encontró el elemento header en el DOM.");
     }
-
 
 }
 
