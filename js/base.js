@@ -48,9 +48,6 @@ export function crearMain(main) {
 
 // Crea el aside con promociones
 function crearAside() {
-    const aside = document.querySelector("aside");
-    const h2 = document.createElement("h2");
-    h2.textContent = "Promociones";
     return aside;
 }
 
