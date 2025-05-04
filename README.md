@@ -32,6 +32,8 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 ---
 ## 3. Estructura del sitio
 
+tree -I 'node_modules|.git'
+
 ---
 ## 4. Instalacion y uso
 
