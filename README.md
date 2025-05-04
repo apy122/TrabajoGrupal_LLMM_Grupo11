@@ -33,10 +33,44 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 ## 3. Estructura del sitio
 |Principal|subcarpeta|Descripción|
 |-------|-------|-------|
-|Index.html| |pagina principal|
-|script.js| |JavaScript de la página principal|
-|style.css| |Estilo de la página principal|
-|README.md||el readme del proyecto|
+|Enunciado||Contiene el enunciado del ejercicio|
+||Actividad 3_Web Corporativa HTML y CSS Responsive.pdf|Enunciado ejercicio|
+|css||Contiene los estilos de las paginas|
+||about.css|Estilo de acerca de|
+||areasActuacion.css|Estilo de Areas de actuacion|
+||base.css|Estilo base para todas las paginas y responsive|
+||contacto.css|Estilo de contacto|
+||localizacion.css|Estilo de localizacion|
+||noticias.css|Estilo de noticas|
+||publicaciones.css|Estilo de publicaciones|
+||README.md|el readme del proyecto|
+||index.html|pagina principal|
+||script.js|JavaScript de la página principal|
+||style.css|Estilo de la página principal|
+|fonts||Contiene las fuentes|
+||Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf|Contiene esta fuente|
+|html||Contiene las paginas secundarias|
+||about.html|Contiene la pagina acerca de|
+||areasActuacion.html|Contiene las paginas Areas de Actuacion|
+||contacto.html|Contiene la pagina de contacto|
+||localizacion.html|Contiene la pagina de contacto|
+||noticias.html|Contiene la pagina noticias|
+||publicaciones.html|Contiene la pagina publicaciones|
+|img||Contiene las imagenes del proyecto|
+||capturas|Contiene capturas del proyecto|
+||logo_bitecade.png|Logo de la empresa en png|
+||logo_bitecade.svg|Logo de la empresa en svg|
+|js||Aqui los javascrips de las paginas|
+||about.js|El javascript de sobre nosotros|
+||areasActuacion.js|El javascript sobre areas de actuacion|
+||base.js| La estructura basica de la pagina en javascript|
+||contacto.js|El javascript de contacto|
+||localizacion.js|El javascript de localizacion|
+||navPrincipal.js| El cabecero de la pagina principal|
+||navSecundario.ja|El cabecero de la pagina secundaria|
+||noticias.js|El javascript de nopticias|
+||publicaciones.js|El javascript de publicaciones|
+
 
 ***En construcción***
 
