@@ -57,6 +57,15 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 ---
 ## 4. Instalacion y uso
 
+Sigue estos pasos para clonar y ejecutar el proyecto localmente:
+
+### 1. Clonar el repositorio
+
+Abre tu terminal y ejecuta:
+
+```bash
+git clone urlRepo
+
 ---
 ## 5. Capturas de pantalla
 
