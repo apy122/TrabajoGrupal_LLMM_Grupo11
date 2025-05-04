@@ -32,7 +32,7 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 ---
 ## 3. Estructura del sitio
 |Principal|subcarpeta|Descripción|
-|----|----|----|
+|-------|-------|-------|
 
 ***En construcción***
 
