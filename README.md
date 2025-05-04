@@ -91,7 +91,7 @@ git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
 ![Menú en grande](img/capturas/menuGrande.png)
 ![Menú en pequeno](img/capturas/menupequeno.png)
 
-***Contacto
+***Contacto***
 ![Contacto en grande](img/capturas/ContactoGrande.png)
 ![Contacto en grande](img/capturas/contactopequeno.png)
 
