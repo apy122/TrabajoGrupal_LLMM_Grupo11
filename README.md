@@ -85,7 +85,8 @@ git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
 
 ---
 ## 5. Capturas de pantalla
-![nav en grande](img/capturas/menú grande.png)
+
+![Menú en grande](img/capturas/menuGrande.png)
 
 ---
 ## 6. Equipo de desarrollo
