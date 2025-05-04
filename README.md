@@ -63,8 +63,8 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 Abre tu terminal y ejecuta:
 
-```bash
-git clone urlRepo```
+bash
+git clone urlRepo
 
 ---
 ## 5. Capturas de pantalla
