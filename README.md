@@ -1,12 +1,12 @@
 # <p align="center"> Desarrollo de Página Web Corporativa: Empresa X</p>
 
 ## Indice
-1. [Caracteristicas](#1.caracteristicas).
-2. [Tecnologias utilizadas](#2.tecnologias-utilizadas).
-3. [Estructura del sitio](#3.estructura-del-sitio).
-4. [Instalación y uso](#4.instalacion-y-uso).
-5. [Capturas de pantalla](#5.capturas-de-pantalla).
-6. [Equipo de desarrollo](#6.equipo-de-desarrollo).
+1. [Caracteristicas](#1-caracteristicas).
+2. [Tecnologias utilizadas](#2-tecnologias-utilizadas).
+3. [Estructura del sitio](#3-estructura-del-sitio).
+4. [Instalación y uso](#4-instalacion-y-uso).
+5. [Capturas de pantalla](#5-capturas-de-pantalla).
+6. [Equipo de desarrollo](#6-equipo-de-desarrollo).
 
 ---
 ## 1. Caracteristicas
