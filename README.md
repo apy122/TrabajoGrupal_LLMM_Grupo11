@@ -32,7 +32,7 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 ---
 ## 3. Estructura del sitio
 
-tree -I 'node_modules|.git'
+. ├── Enunciado/ ├── css/ │   ├── about.css │   ├── areasActuacion.css │   ├── base.css │   ├── contacto.css │   ├── localizacion.css │   ├── noticias.css │   └── publicaciones.css ├── fonts/ │   └── Sixtyfour-Regular-VariableFont.ttf ├── html/ │   ├── about.html │   ├── areasActuacion.html │   ├── contacto.html │   ├── localizacion.html │   ├── noticias.html │   └── publicaciones.html ├── img/ │   ├── logo_bitecade.png │   └── logo_bitecade.svg ├── js/ │   ├── about.js │   ├── areasActuacion.js │   ├── base.js │   ├── contacto.js │   ├── localizacion.js │   ├── navPrincipal.js │   ├── navSecundario.js │   ├── noticias.js │   └── publicaciones.js ├── index.html ├── style.css ├── script.js └── README.md
 
 ---
 ## 4. Instalacion y uso
