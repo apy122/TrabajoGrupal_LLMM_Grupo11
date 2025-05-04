@@ -31,48 +31,46 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 
 ---
 ## 3. Estructura del sitio
-|Principal|subcarpeta|Descripción|
-|-------|-------|-------|
-|Enunciado||Contiene el enunciado del ejercicio|
-||Actividad 3_Web Corporativa HTML y CSS Responsive.pdf|Enunciado ejercicio|
-|css||Contiene los estilos de las paginas|
-||about.css|Estilo de acerca de|
-||areasActuacion.css|Estilo de Areas de actuacion|
-||base.css|Estilo base para todas las paginas y responsive|
-||contacto.css|Estilo de contacto|
-||localizacion.css|Estilo de localizacion|
-||noticias.css|Estilo de noticas|
-||publicaciones.css|Estilo de publicaciones|
-||README.md|el readme del proyecto|
-||index.html|pagina principal|
-||script.js|JavaScript de la página principal|
-||style.css|Estilo de la página principal|
-|fonts||Contiene las fuentes|
-||Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf|Contiene esta fuente|
-|html||Contiene las paginas secundarias|
-||about.html|Contiene la pagina acerca de|
-||areasActuacion.html|Contiene las paginas Areas de Actuacion|
-||contacto.html|Contiene la pagina de contacto|
-||localizacion.html|Contiene la pagina de contacto|
-||noticias.html|Contiene la pagina noticias|
-||publicaciones.html|Contiene la pagina publicaciones|
-|img||Contiene las imagenes del proyecto|
-||capturas|Contiene capturas del proyecto|
-||logo_bitecade.png|Logo de la empresa en png|
-||logo_bitecade.svg|Logo de la empresa en svg|
-|js||Aqui los javascrips de las paginas|
-||about.js|El javascript de sobre nosotros|
-||areasActuacion.js|El javascript sobre areas de actuacion|
-||base.js| La estructura basica de la pagina en javascript|
-||contacto.js|El javascript de contacto|
-||localizacion.js|El javascript de localizacion|
-||navPrincipal.js| El cabecero de la pagina principal|
-||navSecundario.ja|El cabecero de la pagina secundaria|
-||noticias.js|El javascript de nopticias|
-||publicaciones.js|El javascript de publicaciones|
-
-
 ***En construcción***
+| Principal | Subcarpeta | Descripción |
+|----------|------------|-------------|
+| Enunciado | | Contiene el enunciado del ejercicio |
+|  | [Actividad 3_Web Corporativa HTML y CSS Responsive.pdf](Enunciado/Actividad%203_Web%20Corporativa%20HTML%20y%20CSS%20Responsive.pdf) | Enunciado ejercicio |
+| css | | Contiene los estilos de las páginas |
+|  | [about.css](css/about.css) | Estilo de acerca de |
+|  | [areasActuacion.css](css/areasActuacion.css) | Estilo de Áreas de actuación |
+|  | [base.css](css/base.css) | Estilo base para todas las páginas y responsive |
+|  | [contacto.css](css/contacto.css) | Estilo de contacto |
+|  | [localizacion.css](css/localizacion.css) | Estilo de localización |
+|  | [noticias.css](css/noticias.css) | Estilo de noticias |
+|  | [publicaciones.css](css/publicaciones.css) | Estilo de publicaciones |
+|  | [README.md](css/README.md) | El README del proyecto |
+|  | [index.html](index.html) | Página principal |
+|  | [script.js](script.js) | JavaScript de la página principal |
+|  | [style.css](style.css) | Estilo de la página principal |
+| fonts | | Contiene las fuentes |
+|  | [Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf](fonts/Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf) | Fuente utilizada |
+| html | | Contiene las páginas secundarias |
+|  | [about.html](html/about.html) | Página Acerca de |
+|  | [areasActuacion.html](html/areasActuacion.html) | Página Áreas de actuación |
+|  | [contacto.html](html/contacto.html) | Página de contacto |
+|  | [localizacion.html](html/localizacion.html) | Página de localización |
+|  | [noticias.html](html/noticias.html) | Página de noticias |
+|  | [publicaciones.html](html/publicaciones.html) | Página de publicaciones |
+| img | | Contiene las imágenes del proyecto |
+|  | [capturas](img/capturas) | Contiene capturas del proyecto |
+|  | [logo_bitecade.png](img/logo_bitecade.png) | Logo en PNG |
+|  | [logo_bitecade.svg](img/logo_bitecade.svg) | Logo en SVG |
+| js | | Contiene los JavaScript de las páginas |
+|  | [about.js](js/about.js) | JavaScript de "Sobre nosotros" |
+|  | [areasActuacion.js](js/areasActuacion.js) | JavaScript de "Áreas de actuación" |
+|  | [base.js](js/base.js) | Estructura básica de la página |
+|  | [contacto.js](js/contacto.js) | JavaScript de contacto |
+|  | [localizacion.js](js/localizacion.js) | JavaScript de localización |
+|  | [navPrincipal.js](js/navPrincipal.js) | Cabecera de la página principal |
+|  | [navSecundario.js](js/navSecundario.js) | Cabecera de la página secundaria |
+|  | [noticias.js](js/noticias.js) | JavaScript de noticias |
+|  | [publicaciones.js](js/publicaciones.js) | JavaScript de publicaciones |
 
 ---
 ## 4. Instalacion y uso
