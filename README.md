@@ -11,7 +11,7 @@
 ---
 ## 1. Caracteristicas
 
-Página web corporativa de una empresa cuya actividad económica se basa en la venta y distribución de juegos  de segunda mano de  diversas plataformas y consolas.
+Somos una empresa de venta de productos físicos y digitales relacionada con el mundo de los videojuegos. Vendemos consolas nuevas y de segunda mano, claves digitales para videojuegos en diferentes plataformas y ofrecemos publicidad y noticias de actualidad referentes a la industria del videojuego
 
 **División del trabajo**
 
@@ -22,9 +22,7 @@ También hace la página contacto
 
 **Javier:** hace home y quienes somos. 
 
-Se utiliza un css común para el encabezado, nav, fondo y letra de todas las páginas.
-
-Somos una empresa de venta de productos físicos y digitales relacionada con el mundo de los videojuegos. Vendemos consolas nuevas y de segunda mano, claves digitales para videojuegos en diferentes plataformas y ofrecemos publicidad y noticias de actualidad referentes a la industria del videojuego. 
+Se utiliza un css común para el encabezado, nav, fondo y letra de todas las páginas. 
 
 ---
 ## 2. Tecnologias utilizadas
