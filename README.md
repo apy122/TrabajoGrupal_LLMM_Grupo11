@@ -28,6 +28,9 @@ Se utiliza un css común para el encabezado, nav, fondo y letra de todas las pá
 ## 2. Tecnologias utilizadas
 
 ![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ---
 ## 3. Estructura del sitio
