@@ -15,14 +15,12 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 
 **División del trabajo**
 
-**Álvaro:** ha hecho la estructura del proyecto y el javascript
-También hace la página contacto
+**Álvaro:** Estructura proyecto, estructura javascript y contacto.
 
-**Diego:** áreas de actuación y si da tiempo noticias. En noticias se incluye un formulario para inscribirse en la newsletter. 
+**Diego:** áreas de actuación y noticias (incluye inscripción  newsletter).
 
-**Javier:** hace home y quienes somos. 
-
-Se utiliza un css común para el encabezado, nav, fondo y letra de todas las páginas. 
+**Javier:** home y quienes somos. 
+ 
 
 ---
 ## 2. Tecnologias utilizadas
