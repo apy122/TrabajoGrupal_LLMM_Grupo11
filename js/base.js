@@ -16,7 +16,16 @@ export function crearHeader(header) {
     const titulo= document.createElement("h1");
     titulo.textContent = " ";
 
+    const img= document.createElement("img");
+    img.src= "../img/Logo_bitecade.svg";
+    img.alt="logo_bitecade";
+    img.className= "logo";
+    const p= document.createElement("p");
+    p.textContent = "bitecade";
+    p.id= "bitecade";
     //unir todo
+    contenedor.appendChild(p);
+    contenedor.appendChild(img);
     contenedor.appendChild(titulo);
     header.appendChild(contenedor);
 
