@@ -27,7 +27,7 @@ Se utiliza un css común para el encabezado, nav, fondo y letra de todas las pá
 ---
 ## 2. Tecnologias utilizadas
 
-https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png
+![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
 
 ---
 ## 3. Estructura del sitio
