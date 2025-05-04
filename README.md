@@ -11,12 +11,16 @@
 ---
 ## 1. Caracteristicas
 
-Álvaro ha hecho la estructura del proyecto y el javascript
+Página web corporativa de una empresa cuya actividad económica se basa en la venta y distribución de juegos  de segunda mano de  diversas plataformas y consolas.
+
+**División del trabajo**
+
+**Álvaro:** ha hecho la estructura del proyecto y el javascript
 También hace la página contacto
 
-Diego hago áreas de actuación y si da tiempo noticias. En noticias se incluye un formulario para inscribirse en la newsletter. 
+**Diego:** áreas de actuación y si da tiempo noticias. En noticias se incluye un formulario para inscribirse en la newsletter. 
 
-Javier hace home y quienes somos. 
+**Javier:** hace home y quienes somos. 
 
 Se utiliza un css común para el encabezado, nav, fondo y letra de todas las páginas.
 
