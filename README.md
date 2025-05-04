@@ -34,6 +34,7 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 |Principal|subcarpeta|Descripción|
 |-------|-------|-------|
 |Index.html| |pagina principal|
+|script.js| |JavaScript de la página principal|
 
 ***En construcción***
 
