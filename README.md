@@ -32,27 +32,7 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 ---
 ## 3. Estructura del sitio
 
-| Carpeta principal | Subcarpeta / Archivo           | Descripción                          |
-|-------------------|---------------------------------|--------------------------------------|
-| `Enunciado/`      |                                 | Documentación del proyecto           |
-| `css/`            | `about.css`                     | Estilos de la sección "about"        |
-|                   | `areasActuacion.css`            | Estilos de áreas de actuación        |
-|                   | `base.css`                      | Estilos base                         |
-|                   | `contacto.css`                  | Estilos de contacto                  |
-|                   | `localizacion.css`              | Estilos de localización              |
-|                   | `noticias.css`                  | Estilos de noticias                  |
-|                   | `publicaciones.css`             | Estilos de publicaciones             |
-| `fonts/`          | `Sixtyfour-Regular-VariableFont.ttf` | Fuente personalizada         |
-| `html/`           | `about.html`                    | Página "about"                       |
-|                   | `areasActuacion.html`           | Página de áreas de actuación         |
-|                   | `contacto.html`                 | Página de contacto                   |
-|                   | `localizacion.html`             | Página de localización               |
-|                   | `noticias.html`                 | Página de noticias                   |
-|                   | `publicaciones.html`            | Página de publicaciones              |
-| `img/`            | `logo_bitecade.png`             | Logo en PNG                          |
-|                   | `logo_bitecade.svg`             | Logo en SVG                          |
-| `js/`             | `about.js`                      | JS de la sección "about"             |
-|                   | `areasActuacion.js
+***En construcción***
 
 ---
 ## 4. Instalacion y uso
