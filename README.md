@@ -32,7 +32,32 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 ---
 ## 3. Estructura del sitio
 
-
+| Carpeta / Archivo                         | Descripción                          |
+|-------------------------------------------|--------------------------------------|
+| `Enunciado/`                               | Documentación o requerimientos       |
+| `css/`                                     | Hojas de estilo                      |
+| ├── `about.css`                            | Estilos de la sección "about"        |
+| ├── `areasActuacion.css`                  | Estilos para áreas de actuación      |
+| ├── `base.css`                             | Estilos base comunes                 |
+| ├── `contacto.css`                         | Estilos para la página de contacto   |
+| ├── `localizacion.css`                    | Estilos de la sección localización   |
+| ├── `noticias.css`                         | Estilos de noticias                  |
+| └── `publicaciones.css`                   | Estilos de publicaciones             |
+| `fonts/`                                   | Fuentes utilizadas                   |
+| └── `Sixtyfour-Regular-VariableFont.ttf`   | Fuente personalizada                 |
+| `html/`                                    | Páginas HTML                         |
+| ├── `about.html`                           | Página "about"                       |
+| ├── `areasActuacion.html`                 | Página de áreas de actuación         |
+| ├── `contacto.html`                        | Página de contacto                   |
+| ├── `localizacion.html`                   | Página de localización               |
+| ├── `noticias.html`                        | Página de noticias                   |
+| └── `publicaciones.html`                  | Página de publicaciones              |
+| `img/`                                     | Imágenes del proyecto                |
+| ├── `logo_bitecade.png`                   | Logo en formato PNG                  |
+| └── `logo_bitecade.svg`                   | Logo en formato SVG                  |
+| `js/`                                      | Archivos JavaScript por sección      |
+| ├── `about.js`                             | JS para la sección "about"           |
+| ├
 
 ---
 ## 4. Instalacion y uso
