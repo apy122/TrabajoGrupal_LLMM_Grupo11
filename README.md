@@ -83,7 +83,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 Abre tu terminal y ejecuta:
 
-git clone urlRepo
+git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
 
 ---
 ## 5. Capturas de pantalla
