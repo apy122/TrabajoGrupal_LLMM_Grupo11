@@ -77,8 +77,6 @@ Somos una empresa de venta de productos físicos y digitales relacionada con el 
 
 Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
-### 1. Clonar el repositorio
-
 Abre tu terminal y ejecuta:
 
 git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
@@ -88,18 +86,18 @@ git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
 
 ***Menús***
 
-**Menú en grande**
+### **Menú en grande**
 ![Menú en grande](img/capturas/menuGrande.png)
 
-**Menú en pequeño**
+### **Menú en pequeño**
 ![Menú en pequeno](img/capturas/menupequeno.png)
 
 ***Contacto***
 
-**Contacto en grande**
+### **Contacto en grande**
 ![Contacto en grande](img/capturas/ContactoGrande.png)
 
-**Contacto en pequeño**
+### **Contacto en pequeño**
 ![Contacto en grande](img/capturas/contactopequeno.png)
 
 
