@@ -1,7 +1,7 @@
 export function iniciarNavSecundario() {
     const header = document.querySelector("header");
     const logo = document.createElement("img");
-    logo.src = "../img/Logo_bitecade.svg";
+    logo.src = "../img/logo_bitecade.svg";
     logo.alt = "logo_bitecade";
     logo.className = "logo";
 

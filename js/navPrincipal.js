@@ -4,7 +4,7 @@ export function iniciarNavPrincipal() {
     header.className = "contenedor-titulo";
 
     const logo = document.createElement("img");
-    logo.src = "img/Logo_bitecade.svg";
+    logo.src = "img/logo_bitecade.svg";
     logo.alt = "logo_bitecade";
     logo.className = "logo";
 
