@@ -1,1 +1,53 @@
 @import url("base.css");
+
+.contenido {
+    justify-content: center;
+    text-align: justify;
+    margin: 20px;
+}
+
+.logos_fondo {
+    background-color: rgb(158, 24, 24);
+    display: flex;
+    color: white;
+}
+
+.logo_about {
+    width: 30%;
+    padding-inline: 30px;
+}
+
+.logo_about img {
+    width: 100%;
+}
+
+.sublogo {
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+}
+
+.logo_about .texto_logo{
+    text-align: justify;
+}
+
+.texto_about {
+    line-height: 30px;
+}
+    
+.informacion:hover {
+    color: white;
+}
+
+aside {
+    display: block;
+}
+
+.devs {
+    text-align: center;
+}
+
+.devs img {
+    border-radius: 10px;
+}
+    
