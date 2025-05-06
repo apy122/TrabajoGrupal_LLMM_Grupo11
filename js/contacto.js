@@ -1,9 +1,6 @@
-import { armarPagina } from "./base.js"; 
-import { iniciarNavSecundario } from "./navSecundario.js"; 
-
+import { iniciarNavSecundario } from "./navSecundario.js";  
 document.addEventListener("DOMContentLoaded", () => {
-    armarPagina();
-    iniciarNavSecundario();
+    iniciarNavSecundario()
     modificarHeader(); 
     modificarMain();
 });
@@ -43,7 +40,7 @@ function modificarMain() {
         {
             campos: [
                 { type: "text", name: "asunto", label: "Asunto: ", required: true },
-                { type: "text", name: "mensaje", label: "Mensaje :", required: true }
+                { tag:"textarea", name: "mensaje", label: "Mensaje :", required: true }
             ]
         },
     ];
@@ -57,11 +54,6 @@ function modificarMain() {
     // Recorrer fieldsets
     fieldsets.forEach(elementosForm => {
         const fieldset = document.createElement("fieldset");
-        
-        //creo los legends
-        const legend = document.createElement("legend");
-        legend.textContent = elementosForm.legend;
-        fieldset.appendChild(legend);
 
         // Crear cada campo dentro del fieldset
         elementosForm.campos.forEach(campo => {
@@ -113,8 +105,5 @@ function modificarMain() {
 
     // Insertar formulario dentro del artículo
     articulo.appendChild(form);
-
-    //crear aside
-    const aside = document.querySelector("main section aside");
     
 }

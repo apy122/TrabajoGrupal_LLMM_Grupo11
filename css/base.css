@@ -17,7 +17,7 @@ body{
 }
 
 .menu{
-    visibility: hidden;
+    display: none;
 }
 
 nav{
@@ -155,7 +155,7 @@ aside{
         width: 100%;
         text-align: center;
     }
-    .items.show {
+    .items.mostrar {
         display: flex;
     }
     nav ul li {
