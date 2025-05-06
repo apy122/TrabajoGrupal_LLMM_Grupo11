@@ -62,7 +62,7 @@ export function iniciarNavPrincipal() {
 }
 
 function mostrarMenu() {
-    const menu = document.querySelector(".nav-secundario .items");
+    const menu = document.querySelector("nav .items");
     if (menu) {
         menu.classList.toggle("mostrar");
     }

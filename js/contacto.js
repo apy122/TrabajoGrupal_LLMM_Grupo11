@@ -14,11 +14,10 @@ function modificarHeader() {
 }
 function modificarMain() {
     // Variables
-    const headerInterno = document.querySelector("main section header");
-    const articulo = document.querySelector("main section article");
+    const main = document.querySelector("main")
 
-    if (!headerInterno || !articulo) {
-        console.error("No se encontró headerInterno o articulo");
+    if (!main) {
+        console.error("No se encontró main o articulo");
         return;
     }
 
@@ -26,7 +25,7 @@ function modificarMain() {
     const h2 = document.createElement("h2");
     h2.textContent = "Formulario de Inscripción";
     h2.id = "subtitulo";
-    headerInterno.appendChild(h2);
+    main.appendChild(h2);
 
     // Definición de campos agrupados por fieldsets
     const fieldsets = [
@@ -104,6 +103,7 @@ function modificarMain() {
     form.appendChild(boton);
 
     // Insertar formulario dentro del artículo
-    articulo.appendChild(form);
+    main.appendChild(form);
+    document.body.appendChild(main); // Añadir el formulario al body del documento
     
 }
