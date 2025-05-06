@@ -89,6 +89,7 @@ a {
 
 .card .back p {
     letter-spacing: 1px;
+    font-size: 0.9em;
 }
 
 .card:hover .front {
