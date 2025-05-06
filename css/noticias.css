@@ -1,1 +1,39 @@
 @import url("base.css");
+
+.noticias {
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.imgnoticias {
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 35%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+
+hr {
+    background-color: white;
+    border: white;
+    height: 3px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
