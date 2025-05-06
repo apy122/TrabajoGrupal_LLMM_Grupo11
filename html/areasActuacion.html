@@ -8,13 +8,19 @@
     <script type="module" src="../js/areasActuacion.js"></script>
 </head>
 <body>
-    <header></header>
+    <header>
+    </header>
     <main>
+        <header>
+            <div>
+                <h1>Áreas de actuación</h1>
+            </div>
+        </header>
         <section>
             <article class="areasactuacion">
                 <div>
                     <p>
-                        Desde Bitecade, nos encargamos de la venta de productos físicos y digitales al mejor precio. Entre nuestros servicios, puedes encontrar  
+                        Desde Bitecade nos encargamos de la venta de productos físicos y digitales al mejor precio. Entre nuestros servicios, puedes encontrar  
                         videojuegos, consolas y periféricos de primera y segunda mano para todas las plataformas, además de ofrecer las últimas novedades del 
                         mundo de los videojuegos para estar siempre actualizados. ¡Conócenos!
                     </p>
@@ -65,12 +71,28 @@
                     </ul>
                 </div>
             </article>
-            <footer>
-            </footer>
             <aside>
-                
+                <div class="newsletter">
+                    <h2>¡Suscríbete a nuestra newsletter!</h2>
+                        <div class="formnewsletter">
+                            <form action="" method="post">
+                                <label for="name">Nombre: </label>
+                                <input type="text" name="name" id="name" required>
+                                <label for="apellidos">Apellidos: </label>
+                                <input type="text" name="apellidos" id="apellidos" required>
+                                <label for="email">Email: </label>
+                                <input type="text" name="email" id="email" required>
+                            <div class="botonnewsletter">
+                                <input type="submit" value="Enviar">
+                            </div>
+                            </form>
+                        </div>
+                </div>            
             </aside>
         </section>
+        <footer>
+            <p>©2025 Bitecade, Todos los derechos reservados.</p>
+        </footer>
     </main>
 </body>
 </html>
