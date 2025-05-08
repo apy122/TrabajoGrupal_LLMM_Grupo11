@@ -1,6 +1,6 @@
 import { iniciarNavSecundario } from "./navSecundario.js";  
 document.addEventListener("DOMContentLoaded", () => {
-    iniciarNavSecundario()
+    iniciarNavSecundario();
     modificarHeader(); 
     modificarMain();
 });
@@ -12,9 +12,10 @@ function modificarHeader() {
         titulo.textContent = "Contacto";
     }
 }
+
 function modificarMain() {
     // Variables
-    const main = document.querySelector("main")
+    const main = document.querySelector("main");
 
     if (!main) {
         console.error("No se encontró main o articulo");
@@ -37,9 +38,21 @@ function modificarMain() {
             ]
         },
         {
+            tag: "genero",
+            type: "radio",
+            name: "genero",
+            label: "Género: ",
+            campos: [
+                { value: "hombre", label: "Hombre" },
+                { value: "mujer", label: "Mujer" },
+                { value: "otro", label: "Otro" }
+            ],
+            required: true
+        },
+        {
             campos: [
                 { type: "text", name: "asunto", label: "Asunto: ", required: true },
-                { tag:"textarea", name: "mensaje", label: "Mensaje :", required: true }
+                { tag: "textarea", name: "mensaje", label: "Mensaje :", required: true }
             ]
         },
     ];
@@ -54,47 +67,84 @@ function modificarMain() {
     fieldsets.forEach(elementosForm => {
         const fieldset = document.createElement("fieldset");
 
-        // Crear cada campo dentro del fieldset
-        elementosForm.campos.forEach(campo => {
+        // Manejar el campo de tipo "genero" (radio buttons)
+        if (elementosForm.tag === "genero" && elementosForm.campos) {
             const divCampo = document.createElement("div");
+            const legend = document.createElement("legend");
+            legend.textContent = elementosForm.label;
+            divCampo.appendChild(legend);
 
-            const label = document.createElement("label");
-            label.textContent = campo.label;
-            label.setAttribute("for", campo.name);
+            elementosForm.campos.forEach(opcion => {
+                const input = document.createElement("input");
+                input.type = elementosForm.type;
+                input.name = elementosForm.name;
+                input.value = opcion.value;
+                input.id = opcion.value;
 
-            let input;
-            if (campo.tag === "textarea") {
-                input = document.createElement("textarea");
-            } else {
-                input = document.createElement("input");
-                input.type = campo.type;
-            }
+                const labelOpcion = document.createElement("label");
+                labelOpcion.textContent = opcion.label;
+                labelOpcion.setAttribute("for", opcion.value);
 
-            input.name = campo.name;
-            input.id = campo.name;
-            if (campo.required) {
-                input.required = true;
-            }
+                const contenedorOpcion = document.createElement("div");
+                contenedorOpcion.appendChild(input);
+                contenedorOpcion.appendChild(labelOpcion);
+                divCampo.appendChild(contenedorOpcion);
+            });
 
-            divCampo.appendChild(label);
-            divCampo.appendChild(input);
             fieldset.appendChild(divCampo);
-        });
+            form.appendChild(fieldset);
+            return; // Salir del bucle para evitar añadir el fieldset de nuevo
+        }
+
+        // Crear cada campo dentro del fieldset
+        if (elementosForm.campos) {
+            elementosForm.campos.forEach(campo => {
+                const divCampo = document.createElement("div");
+
+                const label = document.createElement("label");
+                label.textContent = campo.label;
+                label.setAttribute("for", campo.name);
+
+                let input;
+                if (campo.tag === "textarea") {
+                    input = document.createElement("textarea");
+                } else {
+                    input = document.createElement("input");
+                    input.type = campo.type;
+                }
+
+                input.name = campo.name;
+                input.id = campo.name;
+
+                if (campo.required) {
+                    input.required = true;
+                }
+
+                divCampo.appendChild(label);
+                divCampo.appendChild(input);
+                fieldset.appendChild(divCampo);
+            });
+        }
 
         // Añadir fieldset al formulario
         form.appendChild(fieldset);
     });
 
     // Crear el campo de aceptación de la política de privacidad
-    const label= document.createElement("label");
-    label.textContent = "Acepto la política de privacidad";
-    label.setAttribute("for", "politica-privacidad");
-    const input = document.createElement("input");
-    input.type = "checkbox";
-    input.required = true;
-    input.name = "politica-privacidad";
-    form.appendChild(label);
-    form.appendChild(input);
+    const divPrivacidad = document.createElement("div");
+    const labelPrivacidad = document.createElement("label");
+    labelPrivacidad.textContent = "Acepto la política de privacidad";
+    labelPrivacidad.setAttribute("for", "politica-privacidad");
+
+    const inputPrivacidad = document.createElement("input");
+    inputPrivacidad.type = "checkbox";
+    inputPrivacidad.required = true;
+    inputPrivacidad.name = "politica-privacidad";
+    inputPrivacidad.id = "politica-privacidad";
+
+    divPrivacidad.appendChild(labelPrivacidad);
+    divPrivacidad.appendChild(inputPrivacidad);
+    form.appendChild(divPrivacidad);
 
     // Botón de envío
     const boton = document.createElement("button");
@@ -105,5 +155,4 @@ function modificarMain() {
     // Insertar formulario dentro del artículo
     main.appendChild(form);
     document.body.appendChild(main); // Añadir el formulario al body del documento
-    
 }
