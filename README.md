@@ -114,7 +114,7 @@ git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
 #### **Quien somos en grande**
 ![Quien somos en grande](img/capturas/quienSomosGrande.jpeg)
 
-#### **Contacto en pequeño**
+#### **Quien somos en pequeño**
 ![Quien somos en pequeño](img/capturas/quienSomosPequeno.jpeg)
 
 ### ***Contacto***
