@@ -92,31 +92,6 @@ git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
 #### **Menú en pequeño**
 ![Menú en pequeno](img/capturas/menupequeno.png)
 
-### ***Home***
-
-#### **Home en grande**
-![Home en grande](img/capturas/homeGrande.jpeg)
-
-#### **Home en pequeño**
-![home en pequeno](img/capturas/homePequeno.jpeg)
-![home en pequeno parte inferior](img/capturas/homePequeno2.jpeg)
-
-### ***Noticias***
-
-#### **Noticias en grande**
-![Noticias en grande](img/capturas/noticiasGrandes.jpeg)
-
-#### **Noticias en pequeño**
-![Noticias en pequeño](img/capturas/noticiasPequenas.jpeg)
-
-### ***Quien somos***
-
-#### **Quien somos en grande**
-![Quien somos en grande](img/capturas/quienSomosGrande.jpeg)
-
-#### **Quien somos en pequeño**
-![Quien somos en pequeño](img/capturas/quienSomosPequeno.jpeg)
-
 ### ***Contacto***
 
 #### **Contacto en grande**
@@ -135,5 +110,8 @@ git clone git@github.com:apy122/TrabajoGrupal_LLMM_Grupo11.git
   Github: [Diesainzg](https://github.com/Diesainzg).
 - **Javier Calvo Hidalgo**  
   Github: [Jacahi98 ](https://github.com/Jacahi98).  
+
+link GitHub: https://github.com/apy122/TrabajoGrupal_LLMM_Grupo11
+link GitHub pages: https://apy122.github.io/TrabajoGrupal_LLMM_Grupo11/
 
   ---
